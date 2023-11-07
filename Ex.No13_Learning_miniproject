@@ -1,14 +1,56 @@
 # Ex.No: 10 Learning – Use Supervised Learning  
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE: 28.10.2023                                                                           
+### REGISTER NUMBER :212221040022 
 ### AIM: 
-To write a program to train the classifier for -----------------.
+To write a program to train the classifier for basic email spam detection.
 ###  Algorithm:
+Create a function detectSpam that takes the email content as an argument and checks for the presence of specific spam keywords.
+Define an array of common spam words.
+Iterate through the array to check if any of the spam words are present in the email content.
+If any of the spam words are found, return 1 (spam detected); otherwise, return 0 (not spam).
+In the main function, prompt the user to input the email content.
+Call the detectSpam function with the input email content and output whether the email is classified as spam or not.
 
 ### Program:
+#include <stdio.h>
+#include <string.h>
+
+// Function to detect spam emails
+int detectSpam(char email[]) {
+    // Simple spam keyword detection
+    char *spamWords[] = {"buy", "discount", "offer", "free", "limited", "money"};
+
+    // Check if the email contains any spam keywords
+    for (int i = 0; i < 6; i++) {
+        if (strstr(email, spamWords[i]) != NULL) {
+            return 1; // Spam detected
+        }
+    }
+
+    return 0; // Not spam
+}
+
+int main() {
+    // Input email content
+    char emailContent[1000];
+    printf("Enter the email content: ");
+    fgets(emailContent, 1000, stdin);
+
+    // Detect spam
+    if (detectSpam(emailContent) == 1) {
+        printf("The email is classified as spam.\n");
+    } else {
+        printf("The email is not spam.\n");
+    }
+
+    return 0;
+}
+
 
 
 ### Output:
+
+
 
 
 ### Result:
