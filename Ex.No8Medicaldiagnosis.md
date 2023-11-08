@@ -14,7 +14,7 @@ Write a Prolog program to build a medical Diagnosis Expert System.
         
 
 ### Program:
-
+```
 hypothesis(Patient,german_measles) :- 
 symptom(Patient,fever), 
 symptom(Patient,headache), 
@@ -45,12 +45,13 @@ symptom(Patient,runny_nose).
 symptom(raju,headache). 
 symptom(raju,sneezing). 
 symptom(raju,sore_throat).
-
+```
 
 ### Output:
 
 
-<img width="456" alt="Screenshot 2023-11-07 220541" src="https://github.com/21005291/AI_Lab_2023-24/assets/112933167/fdecaa8a-7c1c-44cb-aea7-db0d72d54297">
+<img width="454" alt="Screenshot 2023-11-08 123115" src="https://github.com/21005291/AI_Lab_2023-24/assets/112933167/fdf193eb-ef1c-43a0-a19d-114a60fd5e15">
+
 
 ### Result:
 Thus the simple medical diagnosis system was built sucessfully.
