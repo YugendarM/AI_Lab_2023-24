@@ -45,16 +45,11 @@ bfs(visited, graph, '5')  # function calling
 print("Following is the Breadth-First Search")
 bfs(visited, graph, '5')  # function calling
 print("Following is the Breadth-First Search")
-bfs(visited, graph, '5') # function calling 
+bfs(visited, graph, '5') # function calling
+``` 
 ### Output:
-Following is the Breadth-First Search
-5
-3
-7
-2
-4
-8
-```
+<img width="453" alt="Screenshot 2023-11-08 121334" src="https://github.com/21005291/AI_Lab_2023-24/assets/112933167/e13c5050-1de0-421d-870d-7311a9b16436">
+
 ### Result:
-<img width="453" alt="Screenshot 2023-11-08 121334" src="https://github.com/21005291/AI_Lab_2023-24/assets/112933167/5958a958-168f-46e4-8072-376a25aa72dc">
+Thus, the breadth first search order was found successfully.
 
