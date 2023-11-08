@@ -1,5 +1,5 @@
 # Ex.No: 3  Implementation of Minimax Search
-### DATE:                                                                            
+### DATE: 12.08.2023                                                                          
 ### REGISTER NUMBER : 
 212221040022
 ### AIM: 
@@ -16,6 +16,7 @@ Write a mini-max search algorithm to find the optimal value of MAX Player from t
 9. Stop the program. 
 
 ### Program:
+```
 import math
 
 def minimax(curDepth, nodeIndex, maxTurn, scores, targetDepth):
@@ -38,8 +39,9 @@ scores = [3, 5, 2, 9, 12, 5, 23, 20]
 treeDepth = math.log(len(scores), 2)  # calculate depth of node log 8 (base 2) = 3)
 print("The optimal value is:", end=" ")
 print(minimax(0, 0, True, scores, treeDepth))
-
+```
 ### Output:
-The optimal value is: 12
+<img width="452" alt="Screenshot 2023-11-08 122054" src="https://github.com/21005291/AI_Lab_2023-24/assets/112933167/9cc8e2af-09ad-4f74-8b5f-ca248d2c0304">
+
 ### Result:
 Thus the optimum value of max player was found using minimax search.
