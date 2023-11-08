@@ -16,6 +16,8 @@ Step 9 : Define a problem for block world problem.<br>
 Step 10 : Obtain the plan for given problem.<br> 
      
 ### Program:
+```
+BLOCK WORLD.PDDL:
 	(define (domain blocksworld) 
 (:requirements :strips :equality) 
 (:predicates (clear ?x) 
@@ -43,26 +45,32 @@ Step 10 : Obtain the plan for given problem.<br>
 :precondition (and (on ?ob ?underob) (clear ?ob) (arm-empty)) 
 :effect (and (holding ?ob) (clear ?underob) 
 (not (on ?ob ?underob)) (not (clear ?ob)) (not (arm-empty)))))
-
-
-
-
-
-
-
-
-
-
+```
 ### Input 
-(define (problem pb1) 
+```
+PROBLEM – 01:
+	(define (problem pb1) 
  (:domain blocksworld) 
  (:objects a b) 
  (:init (on-table a) (on-table b)  (clear a)  (clear b) (arm-empty)) 
- (:goal (and (on a b))))     
+ (:goal (and (on a b))))
 
 
+PROBLEM – 02:
+	(define(problem pb3) 
+(:domain blocksworld) 
+(:objects a b c) 
+(:init (on-table a) (on-table b)   (on-table c)   
+(clear a)  (clear b) (clear c) (arm-empty)) 
+(:goal (and (on a b) (on b c))))
+```
 ### Output/Plan:
-<img width="399" alt="Screenshot 2023-11-07 221339" src="https://github.com/21005291/AI_Lab_2023-24/assets/112933167/7934a55a-4324-4a42-be5a-b32c30b9de19">
+output-1:
+<img width="408" alt="Screenshot 2023-11-08 124014" src="https://github.com/21005291/AI_Lab_2023-24/assets/112933167/4565c3c5-56ca-4ab2-9992-14651546e722">
+
+output-2:
+<img width="420" alt="Screenshot 2023-11-08 124100" src="https://github.com/21005291/AI_Lab_2023-24/assets/112933167/9402cabf-5c1b-487d-b822-12bf3c64d577">
+
 
 
 
