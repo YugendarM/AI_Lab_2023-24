@@ -13,6 +13,7 @@ To write a python program to implement Depth first Search.
 6. Call the dfs function by passing arguments visited, graph and starting node.
 7. Stop the program.
 ### Program:
+```
 # Using a Python dictionary to act as an adjacency list
 graph = {
  '5' : ['3','7'],
@@ -31,14 +32,10 @@ def dfs(visited, graph, node): #function for dfs
  dfs(visited, graph, neighbour)
 # Driver Code
 print("Following is the Depth-First Search")
-dfs(visited, graph, '5') 
+dfs(visited, graph, '5')
+```
 ### Output:
-Following is the Depth-First Search
-5
-3
-2
-4
-8
-7
+<img width="350" alt="Screenshot 2023-11-08 121851" src="https://github.com/21005291/AI_Lab_2023-24/assets/112933167/4466756c-8220-4ce3-9b9f-ff70e1ba9906">
+
 ### Result:
 Thus the depth first search order was found sucessfully.
