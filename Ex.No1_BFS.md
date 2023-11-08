@@ -14,6 +14,7 @@ To write a python program to implement Breadth first Search.
 7.   Call the bfs function by passing arguments visited, graph and starting node.
 8.   Stop the program.
 ### Program:
+```
 graph = {
     '5': ['3', '7'],
     '3': ['2', '4'],
@@ -53,5 +54,7 @@ Following is the Breadth-First Search
 2
 4
 8
+```
 ### Result:
-Thus the breadth first search order was found sucessfully.
+<img width="453" alt="Screenshot 2023-11-08 121334" src="https://github.com/21005291/AI_Lab_2023-24/assets/112933167/5958a958-168f-46e4-8072-376a25aa72dc">
+
