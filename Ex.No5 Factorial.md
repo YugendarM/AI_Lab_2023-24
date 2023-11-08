@@ -1,5 +1,5 @@
 # Ex.No: 5   Logic Programming – Factorial of number   
-### DATE:                                                                            
+### DATE:26.08.2023                                                                           
 ### REGISTER NUMBER : 
 212221040022
 ### AIM: 
@@ -13,12 +13,14 @@ To  write  a logic program for finding the factorial of given number using SWI-P
 6. STEP 4: Stop the program.
 
 ### Program:
+```
 factorial(0,1).
 factorial(A,B) :-
  A > 0,
  C is A-1,
  factorial(C,D),
- B is A*D. 
+ B is A*D.
+```
 ### Output:
 <img width="536" alt="Screenshot 2023-11-04 094006" src="https://github.com/21005291/AI_Lab_2023-24/assets/112933167/c0e44c4c-9ddc-44da-b24a-892f112d5ae0">
 
