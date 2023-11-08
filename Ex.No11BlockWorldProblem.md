@@ -66,9 +66,11 @@ PROBLEM – 02:
 ```
 ### Output/Plan:
 output-1:
+
 <img width="408" alt="Screenshot 2023-11-08 124014" src="https://github.com/21005291/AI_Lab_2023-24/assets/112933167/4565c3c5-56ca-4ab2-9992-14651546e722">
 
 output-2:
+
 <img width="420" alt="Screenshot 2023-11-08 124100" src="https://github.com/21005291/AI_Lab_2023-24/assets/112933167/9402cabf-5c1b-487d-b822-12bf3c64d577">
 
 
