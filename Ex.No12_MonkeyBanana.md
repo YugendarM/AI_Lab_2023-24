@@ -1,6 +1,6 @@
 # Ex.No: 12  Planning –  Monkey Banana Problem
-### DATE:21.10.2023                                                                        
-### REGISTER NUMBER : 212221040022
+### DATE:30.03.2024                                                                        
+### REGISTER NUMBER : 212221040186
 ### AIM: 
 To find the sequence of plan for Monkey Banana problem using PDDL Editor.
 ###  Algorithm:
@@ -81,7 +81,7 @@ Step 7: Stop the program.<br>
 )
 ```
 ### Output/Plan:
-<img width="445" alt="Screenshot 2023-11-07 221539" src="https://github.com/21005291/AI_Lab_2023-24/assets/112933167/16773d97-dd69-49d9-8c78-e150a9257d8c">
+![image](https://github.com/21005291/AI_Lab_2023-24/assets/119681539/b112b1d3-487f-4d96-9220-f2fe068c47ed)
 
 
 
